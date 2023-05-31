@@ -2,20 +2,30 @@
 
 
 ## AIM
+
 To read the given data and perform Feature Generation process and save the data to a file. 
 
 # Explanation
+
 Feature Generation (also known as feature construction, feature extraction or feature engineering) is the process of transforming features into new features that better relate to the target.
  
 
 # ALGORITHM
+
 ### STEP 1
+
 Read the given Data
+
 ### STEP 2
+
 Clean the Data Set using Data Cleaning Process
+
 ### STEP 3
+
 Apply Feature Generation techniques to all the feature of the data set
+
 ### STEP 4
+
 Save the data to the file
 
 
@@ -76,6 +86,7 @@ dt ['Embarked']=dt['Embarked'] . fillna(df ['Embarked'].mode( )[0])
 dt.isnull().sum( )
 from sklearn.preprocessing import LabelEncoder
 lc = LabelEncoder()
+
 df['Sex'] = lc.fit_transform(df['Sex'])
 sbn.set(style ="darkgrid")
 sbn.countplot(df['Sex'])
@@ -94,14 +105,36 @@ df.head(10)
 # OUPUT
 
 ##Data.csv
+![image](https://github.com/nivetharajaa/EX-05-Feature-Generation/assets/120543388/29f4af59-6558-40df-97cd-d59b46d5f674)
 
+![image](https://github.com/nivetharajaa/EX-05-Feature-Generation/assets/120543388/ed57fc28-cb7d-4f8d-b0cb-c9ab82073262)
 
+![image](https://github.com/nivetharajaa/EX-05-Feature-Generation/assets/120543388/1a1c258a-4495-449a-85e3-974aef2e44a2)
 
+![image](https://github.com/nivetharajaa/EX-05-Feature-Generation/assets/120543388/949c602f-f6ba-4756-8bac-bfbcae748ba3)
 
+![image](https://github.com/nivetharajaa/EX-05-Feature-Generation/assets/120543388/3e3ee1a4-4af2-461c-bcba-c54b94127c07)
 
+![image](https://github.com/nivetharajaa/EX-05-Feature-Generation/assets/120543388/b3cf028b-b0c9-494b-add6-e59beeb7555d)
 
+![image](https://github.com/nivetharajaa/EX-05-Feature-Generation/assets/120543388/d979d9c9-4063-4231-8b22-4250a1bf988a)
 
+![image](https://github.com/nivetharajaa/EX-05-Feature-Generation/assets/120543388/f96e8125-9360-48eb-ba5c-2cfb86761362)
 
+![image](https://github.com/nivetharajaa/EX-05-Feature-Generation/assets/120543388/bff106ae-52d6-4c68-ac17-5da71cb84850)
 
+![image](https://github.com/nivetharajaa/EX-05-Feature-Generation/assets/120543388/7a2f66fd-95fb-4a1c-85c2-70c13b938d54)
+
+![image](https://github.com/nivetharajaa/EX-05-Feature-Generation/assets/120543388/edfa721e-3717-4acf-854a-772a8ad7f66b)
+
+![image](https://github.com/nivetharajaa/EX-05-Feature-Generation/assets/120543388/dfcd480d-13ea-4cfa-93e6-0d543ddcaef2)
+
+![image](https://github.com/nivetharajaa/EX-05-Feature-Generation/assets/120543388/773db1f9-ca11-45e3-895e-e93a98398609)
+
+![image](https://github.com/nivetharajaa/EX-05-Feature-Generation/assets/120543388/b6e01123-0ad4-4020-be12-6520d02145cd)
+
+##RESULT
+
+The Feature Generation process was performed and saved the data to a file.
 
 
