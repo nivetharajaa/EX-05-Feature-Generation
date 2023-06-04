@@ -1,7 +1,7 @@
 # EX-05-Feature-Generation
 
 
-## AIM
+# AIM
 
 To read the given data and perform Feature Generation process and save the data to a file. 
 
@@ -167,7 +167,7 @@ df.head(10)
 
 # OUPUT
 
-##Data.csv
+## Data.csv
 
 
 ![image](https://github.com/nivetharajaa/EX-05-Feature-Generation/assets/120543388/29f4af59-6558-40df-97cd-d59b46d5f674)
@@ -212,7 +212,7 @@ df.head(10)
 ![image](https://github.com/nivetharajaa/EX-05-Feature-Generation/assets/120543388/b6e01123-0ad4-4020-be12-6520d02145cd)
 
 
-##RESULT
+# RESULT
 
 The Feature Generation process was performed and saved the data to a file.
 
